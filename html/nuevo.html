@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Card con precio animado</title>
+  <style>
+    .card {
+      position: relative;
+      width: 200px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    .card img {
+      width: 100%;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .card-body {
+      padding: 10px;
+    }
+
+    .card-price {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: red;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 14px;
+      z-index: 10;
+      position: relative;
+      overflow: hidden;
+      animation: bounce 4s infinite;
+    }
+
+    /* Rebote */
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      20% { transform: translateY(-8px) scale(1.1); }
+      40% { transform: translateY(0); }
+      60% { transform: translateY(-4px) scale(1.05); }
+      80% { transform: translateY(0); }
+    }
+
+    /* Brillo diagonal */
+    .card-price::before {
+      content: "";
+      position: absolute;
+      top: -50%;
+      left: -100%;
+      width: 80%;
+      height: 200%;
+      background: linear-gradient(
+        120deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.7) 50%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      transform: skewX(-25deg);
+      animation: shine 4s infinite;
+      z-index: 11;
+    }
+
+    @keyframes shine {
+      0% { left: -100%; }
+      40% { left: 120%; }
+      100% { left: 120%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://via.placeholder.com/200x120" alt="Imagen demo" />
+    <div class="card-body">
+      <h5 class="card-title">Producto</h5>
+      <p class="card-text">Descripción rápida del producto.</p>
+    </div>
+    <div class="card-price">$17000</div>
+  </div>
+</body>
+</html>
