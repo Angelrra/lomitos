@@ -4,7 +4,11 @@
     font-family: "Roboto", sans-serif;
     font-weight: 300;
 }
-
+.sidebar_element a {
+  color: rgb(103, 93, 93);
+  text-decoration: none; /* opcional para quitar subrayado */
+  align-content: center;
+}
 a{         
     color: var(--bs-gray-800);
     text-shadow: 20px;

@@ -156,7 +156,7 @@ div.hero-section img{
     min-height: 400px;
     display: flex;
     flex-direction: column;
-    gap: .05rem;
+    gap: .05rem;  
 }
 .sidebar_icon-logo  {
   width: 30px;
