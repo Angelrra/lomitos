@@ -232,12 +232,13 @@ footer{
 
 footer li:first-child{
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: none;
+    
 }
 .menu-container4 {
   align-items: center;
   display: grid;
-  grid-template-columns: 1fr 1fr; /* dos columnas */
+  grid-template-columns: 9.rem 1fr; /* dos columnas */
   gap: 0px;
   text-align: left;
   text-decoration: none;

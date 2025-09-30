@@ -11,6 +11,11 @@ div.card:hover{
 .card-title{
     transition: all 0.7s ease;
     text-align: center;
+    padding: 0px;
+    margin:0px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    
 }
 
 div.card:hover > .card-body > .card-title{
@@ -30,6 +35,7 @@ a{
 
 .card {
   position: relative;
+  box-shadow: 5px 5px 7px #dfdede;
 }
 
 .card-price {
@@ -81,4 +87,60 @@ article.container-xl {
     justify-content: space-between;
     text-align: left;
   }
+}
+.card{
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  gap: 0px;
+}
+
+.card-img-top{
+  height: 250px;
+  width: 100%;
+  align-self: center;
+}
+.card-body{
+  width: 100%;
+  background-color: rgb(168, 219, 182);
+  align-items: center;
+}
+
+/* Estilo general para todos los cards */
+.custom-card {
+  width: 18rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+  overflow: hidden;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Precio destacado */
+.custom-card .card-price {
+  background: #28a745; /* verde */
+  color: white;
+  font-weight: bold;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Imagen siempre ajustada */
+.custom-card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Cuerpo flexible */
+.custom-card .card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Botón centrado y abajo */
+.custom-card .btn {
+  margin-top: auto;
+  align-self: center;
 }

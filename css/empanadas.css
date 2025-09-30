@@ -24,7 +24,7 @@ h3 {
 }
 
 a{         
-    color: white;
+    color: rgb(56, 33, 33);
     text-decoration: none;
 }
 
@@ -84,7 +84,7 @@ a{
 /* 🔹 Cards responsivas */
 article.container-xl {
   flex-wrap: wrap; /* permite que bajen si no entran */
-  gap: 20px;       /* espacio entre cards */
+  gap: 10px;       /* espacio entre cards */
 }
 
 .card {
@@ -119,4 +119,11 @@ article.container-xl {
     justify-content: space-between;
     text-align: left;
   }
+}
+.card-text {
+  font-size: 15px;
+  line-height: 1.6;   /* más aire entre líneas */
+  color: #444;        /* gris suave, menos agresivo que negro */
+  margin-bottom: 15px;
+  text-align: center;
 }

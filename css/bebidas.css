@@ -24,7 +24,7 @@ h3 {
 }
 
 a{         
-    color: white;
+    color: rgb(20, 19, 19);
     text-decoration: none;
 }
 
@@ -84,7 +84,7 @@ a{
 /* 🔹 Cards responsivas */
 article.container-xl {
   flex-wrap: wrap; /* permite que bajen si no entran */
-  gap: 20px;       /* espacio entre cards */
+  gap: 10px;       /* espacio entre cards */
 }
 
 .card {
