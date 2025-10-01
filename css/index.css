@@ -384,6 +384,11 @@ header .nav-item .nav-link, footer .footer-wrapper ul li {
         width: 75vw; /* un poco más chico que en celular */
         flex-direction: row; /* mantiene horizontal */
     }
+    div.hero-section img {
+      height: 450px;
+    width: 90vw;
+    z-index: -1;
+}
 }
 
 /* PC (≥992px) */
