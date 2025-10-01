@@ -93,6 +93,8 @@ body{
 /* Main */
 div.hero-section{
     text-align: center;
+    
+    
 }
 
 div.hero-section img{
@@ -110,6 +112,7 @@ div.hero-section img{
     filter: drop-shadow(2px 4px 6px black);
     justify-content: space-evenly;
     list-style-type: none; 
+    flex-direction: row;
 }
 
 .hero-image-wrapper {
@@ -124,6 +127,7 @@ div.hero-section img{
     align-items: center;
     filter: drop-shadow(2px 4px 6px black);
     flex-wrap: wrap;
+    flex-direction: column;
 }
 #sidebar-inicio {
   top: 205px;
@@ -361,7 +365,14 @@ header .nav-item .nav-link, footer .footer-wrapper ul li {
     margin: 0;
     padding: 0;
     color:white;
-}
+    color: white;
+    width: 300px;
+    height: 140px;
+   
+    flex-direction: column;
+    align-items: center;
+  }
+
 
 /* Celulares pequeños (<576px) */
 @media (max-width: 575.98px) {
