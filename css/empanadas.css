@@ -85,13 +85,20 @@ a{
 article.container-xl {
   flex-wrap: wrap; /* permite que bajen si no entran */
   gap: 10px;       /* espacio entre cards */
+
 }
 
 .card {
   flex: 1 1 calc(100% - 40px); /* por defecto ocupa todo */
   max-width: 100%;
 }
-
+@media (min-width:476px) and (max-width:576px){
+article.container-xl {
+  flex-wrap: wrap; /* permite que bajen si no entran */
+  gap: 10px;       /* espacio entre cards */
+  margin-left: 10px;
+}
+}
 @media (min-width: 576px) {
   .card {
     flex: 1 1 calc(50% - 40px); /* 2 por fila en celulares grandes */
