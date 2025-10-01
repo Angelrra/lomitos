@@ -82,11 +82,14 @@ a{
 
 
 /* 🔹 Cards responsivas */
+@media (min-width: 576px) 
+{
 article.container-xl {
   flex-wrap: wrap; /* permite que bajen si no entran */
   gap: 10px;       /* espacio entre cards */
+  margin-left: 20px;
 }
-
+}
 .card {
   flex: 1 1 calc(100% - 40px); /* por defecto ocupa todo */
   max-width: 100%;
@@ -96,6 +99,9 @@ article.container-xl {
   .card {
     flex: 1 1 calc(50% - 40px); /* 2 por fila en celulares grandes */
     max-width: 48%;
+  }
+  article.container-xl {
+    margin-left: 20px;
   }
 }
 
