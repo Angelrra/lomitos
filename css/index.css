@@ -266,6 +266,7 @@ footer li:first-child{
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
+    
 }
 
 .footer-social{
@@ -386,7 +387,10 @@ header .nav-item .nav-link, footer .footer-wrapper ul li {
       height: 450px;
     width: 90vw;
     z-index: -1;
-}
+    }
+    .footer-wrapper{
+    align-items: normal;
+    }
 }
 
 /* Tablets (≥576px y <992px) */
@@ -400,6 +404,9 @@ header .nav-item .nav-link, footer .footer-wrapper ul li {
     width: 90vw;
     z-index: -1;
 }
+    .footer-wrapper{
+    align-items: normal;
+    }
 }
 
 /* PC (≥992px) */
