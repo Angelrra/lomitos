@@ -366,10 +366,16 @@ header .nav-item .nav-link, footer .footer-wrapper ul li {
 /* Celulares pequeños (<576px) */
 @media (max-width: 575.98px) {
     .hero-image-wrapper {
-        width: 90vw;  /* ocupa más ancho en celulares */
-        max-width: 350px;
-        flex-direction: row; /* si hay contenido dentro, lo acomoda vertical */
+        width: 100vw;  /* ocupa más ancho en celulares */
+        max-width: 450px;
+        flex-direction: column; /* si hay contenido dentro, lo acomoda vertical */
+        z-index: -1;
     }
+    div.hero-section img {
+      height: 450px;
+    width: 90vw;
+    z-index: -1;
+}
 }
 
 /* Tablets (≥576px y <992px) */
