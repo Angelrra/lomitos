@@ -40,6 +40,15 @@ body {
   background-color: #cc0000;
 }
 .hero-image-wrapper ubicacion-mapa{
+  display: flex;
   background-color: black;
   color:white;
+  flex-direction: column;
+}
+
+@media (max-width: 575.98px) {
+  .ubicacion iframe {
+    width: 70%;    /* ocupa casi todo el ancho */
+    height: 250px; /* más bajo para que no tape todo */
+  }
 }
