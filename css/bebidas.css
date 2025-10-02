@@ -101,7 +101,7 @@ article.container-xl {
     max-width: 48%;
   }
   article.container-xl {
-    margin-left: 20px;
+    margin: auto
   }
 }
 
