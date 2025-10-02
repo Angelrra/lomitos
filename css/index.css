@@ -133,7 +133,7 @@ div.hero-section img{
   top: 205px;
 }
 .sidebar{
-    top: 180px;
+    top: 170px;
     position:fixed;
     background-color: rgb(232, 207, 192);
     width: max-content;
@@ -373,8 +373,10 @@ header .nav-item .nav-link, footer .footer-wrapper ul li {
     flex-direction: column;
     align-items: center;
   }
-
-
+  img, svg {
+    vertical-align: middle;
+    width: 90%
+  }
 /* Celulares pequeños (<576px) */
 @media (max-width: 575.98px) {
     .hero-image-wrapper {
