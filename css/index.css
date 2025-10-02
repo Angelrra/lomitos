@@ -398,12 +398,12 @@ header .nav-item .nav-link, footer .footer-wrapper ul li {
 /* Tablets (≥576px y <992px) */
 @media (min-width: 576px) and (max-width: 991.98px) {
     .hero-image-wrapper {
-        width: 80vw; /* un poco más chico que en celular */
-        flex-direction: column; /* mantiene horizontal */
+        width: 75vw; /* un poco más chico que en celular */
+        flex-direction: row; /* mantiene horizontal */
     }
     div.hero-section img {
       height: 450px;
-    width: 80vw;
+    width: 90vw;
     z-index: -1;
 }
     .footer-wrapper{

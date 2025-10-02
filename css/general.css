@@ -20,11 +20,8 @@ footer a{
     text-decoration: none;
 }
 main{
-<<<<<<< HEAD
-    min-height: 80vh;
-=======
-    min-height: 75vh;
->>>>>>> parent of 2e84cf4 (min-height 70)
+    min-height: 65vh;
+
 }
 
 h1{
