@@ -5,7 +5,7 @@
 .formulario {
   display: flex;
   justify-content: center;   /* centra horizontal */
-  margin-top: 80px;  
+  margin-top: 30px;  
   margin-bottom: 50px;        /* separa del top */
 }
 
@@ -14,12 +14,25 @@
   width: 100%;
   background: rgba(0, 0, 0, 0.8);        /* fondo negro con opacidad */
   color: white;                           /* texto blanco */
-  padding: 20px;                          /* espacio interno */
+  padding: 10px;                          /* espacio interno */
   border-radius: 12px;                    /* bordes redondeados */
   box-shadow: 0px 4px 12px rgba(0,0,0,0.3); /* sombra suave */
+}
+.mt-3 {
+    margin-top: 1rem !important;
+    gap: 42px;
 }
 
 a{         
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+
+@media (min-width:376px) and (max-width:576px){
+  .formulario{
+    margin-top: 20px;
+  }
+  .formulario form{
+    max-width: 250px;
+  }
 }
