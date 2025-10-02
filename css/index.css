@@ -375,7 +375,7 @@ header .nav-item .nav-link, footer .footer-wrapper ul li {
   }
   img, svg {
     vertical-align: middle;
-    width: 90%
+    width: 60%
   }
 /* Celulares pequeños (<576px) */
 @media (max-width: 575.98px) {
