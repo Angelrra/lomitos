@@ -80,7 +80,6 @@ a{
 article.container-xl {
   flex-wrap: wrap; /* permite que bajen si no entran */
   gap: 20px;       /* espacio entre cards */
-  margin-left: 10px;
 }
 
 .card {
@@ -94,7 +93,7 @@ article.container-xl {
     max-width: 48%;
   }
   article.container-xl {
-    margin-left: 10px;
+    margin-left: 30px;
   }
 }
 
