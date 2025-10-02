@@ -28,7 +28,7 @@ a{
     text-decoration: none;
 }
 
-@media (min-width:376px) and (max-width:576px){
+@media (min-width:376px) and (max-width:676px){
   .formulario{
     margin-top: 20px;
   }
