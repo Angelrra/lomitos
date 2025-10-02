@@ -150,7 +150,7 @@ div.hero-section img{
     /* padding costado y abajo en rem ej 2rem y 1rem */
 }
 .sidebar:hover .sidebar_element{
-    grid-template-columns: 40px 1fr;
+    grid-template-columns: 30px 1fr;
     
 }
 
